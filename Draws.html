@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draws - Basketball Club</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #0033a0;
+      color: #ffcc00;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    nav {
+      background-color: #002b80;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 20px;
+    }
+    .menu {
+      position: relative;
+      display: inline-block;
+    }
+    .menu-button {
+      background-color: #002b80;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .menu-button::before {
+      content: "\2630";
+      font-size: 20px;
+    }
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .menu-content a {
+      color: #002b80;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .menu-content a:hover {
+      background-color: #f1f1f1;
+    }
+    .menu:hover .menu-content {
+      display: block;
+    }
+    section {
+      background-color: #ffffff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #0033a0;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <img src="https://i.postimg.cc/bJRJCRn4/equalizers-logo-resized.png" alt="Club Logo" class="logo"style="height: 80px;" />
+  <h1 style="font-size: 1.5em;">Equalizers</h1>
+
+  <img src="https://i.postimg.cc/bJRJCRn4/equalizers-logo-resized.png" alt="Club Logo" class="logo" style="height: 80px;"/>
+</header>
+
+  <nav>
+    <div class="menu">
+      <button class="menu-button">Menu</button>
+      <div class="menu-content">
+        <a href="index.html">Home</a>
+        <a href="Contacts.html">Contact</a>
+        <a href="Players.html">Player Profiles</a>
+        <a href="Gallery.html">Image Gallery</a>
+        <a href="Draws.html">Draws</a>
+      </div>
+    </div>
+  </nav>
+
+  
+
+  <h1>Match Draws</h1>
+  <img src="https://i.postimg.cc/HLwrRSxh/IMG-20250428-WA0006.jpg" alt="player" style="height: 590px">
+
+</body>
+</html>
