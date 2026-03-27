@@ -10,17 +10,13 @@
         header img { height: 60px; }
 
         /* The Tab Menu Styles */
-        nav { background-color: #002b80; display: flex; padding: 0 40px; justify-content: center; border-top: 4px solid #ffcc00; }
+        nav { background-color: #002b80; display: flex; padding: 0 40px; justify-content: center; }
         nav button { background: none; border: none; color: white; padding: 15px 30px; cursor: pointer; font-size: 18px; font-weight: bold; border-bottom: 4px solid transparent; transition: 0.3s; }
         nav button:hover { color: #ffcc00; }
         .active-btn { color: #ffcc00 !important; border-bottom: 4px solid #ffcc00 !important; }
 
-        h1.section-title { font-size: 28px; background-color: #002b80; color: #ffcc00; padding: 15px; margin: 20px auto; width: 80%; border: 4px solid black; }
-
-        .gallery-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
-        .gallery-item { background: white; padding: 10px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .gallery-item img { width: 100%; height: 300px; object-fit: cover; border-radius: 5px; }
-        .gallery-item p { margin-top: 10px; font-weight: bold; color: #0033a0; }
+        .gallery-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+        .gallery-item img { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; }
     </style>
 </head>
 <body>
@@ -36,34 +32,82 @@
         <button onclick="window.location.href='Draws.html'">Match Draws</button>
         <button onclick="window.location.href='Pictures.html'" class="active-btn">Gallery</button>
     </nav>
+ <div class="container">
+        <h1>Player Profiles</h1>
+        <p>Meet the Men's and Women's squads</p>
 
-    <h1 class="section-title">Club Photo Gallery</h1>
-    <div class="gallery-container">
-        <div class="gallery-item">
-            <img src="https://i.postimg.cc/SK5xWFvr/Equalizers-Mens-Team.jpg.jpeg" alt="Mens Team">
-            <p>The Men's Side</p>
-        </div>
-        <div class="gallery-item">
-            <img src="https://i.postimg.cc/cCG1b7Zt/Equalizers-Womens-Team.jpg.jpeg" alt="Womens Team">
-            <p>The Women's Side</p>
+        <div class="player-grid">
+            <div class="player-card">
+                <img src="https://i.postimg.cc/ryhh0jJW/2025061918082030.jpg" alt="Agnes Urupua">
+                <h2>Agnes Urupua</h2>
+                <span class="position-tag">Point Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/YqLvW9QK/2025061417591803.jpg" alt="Mirielle Sariva">
+                <h2>Mirielle Sariva</h2>
+                <span class="position-tag">Shooting Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/7brw7xyw/2025061418350663.jpg" alt="Joshua Pomat">
+                <h2>Joshua Pomat</h2>
+                <span class="position-tag">Center</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/66kvznW5/2025061418155983.jpg" alt="Tommy Masi">
+                <h2>Tommy Masi</h2>
+                <span class="position-tag">Shooting Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/zXTRQvvw/2025061417443246.jpg" alt="Reggley Tommy">
+                <h2>Reggley Tommy</h2>
+                <span class="position-tag">Shooting Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/Y9JhnBwy/2025061421564187.jpg" alt="Joshua Ori">
+                <h2>Joshua Ori</h2>
+                <span class="position-tag">Point Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/VkR0Yhjd/2025061418444298.png" alt="Larry Miori">
+                <h2>Larry Miori</h2>
+                <span class="position-tag">Point Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/1RqggXGx/2025061918011434.jpg" alt="Jessica Navara">
+                <h2>Jessica Navara</h2>
+                <span class="position-tag">Power Forward</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/PqVLD8VH/2025061422370618.jpg" alt="Ryan Walaka">
+                <h2>Ryan Walaka</h2>
+                <span class="position-tag">Power Forward</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/k4V2vXLb/2025061422443241.jpg" alt="Beven Benson">
+                <h2>Beven Benson</h2>
+                <span class="position-tag">Shooting Guard</span>
+            </div>
+
+            <div class="player-card">
+                <img src="https://i.postimg.cc/RhKq2pSC/2025061423014210.jpg" alt="Tiriman Masi">
+                <h2>Tiriman Masi</h2>
+                <span class="position-tag">Power Forward</span>
+            </div>
         </div>
     </div>
 
-   <h2 class="section-title">Moments from the Court</h2>
-<div class="gallery-container">
-    <div class="gallery-item"><img src="https://i.postimg.cc/j5t79qDx/Whats-App-Image-2025-05-20-at-9-47-53-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/9Mb7j39G/Whats-App-Image-2025-05-20-at-9-47-54-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/J0dHGbP0/Whats-App-Image-2025-05-20-at-9-47-55-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/3rLvSTYh/Whats-App-Image-2025-05-20-at-9-47-56-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/RZtJZJfC/Whats-App-Image-2025-05-20-at-9-47-58-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/5tMYY9qB/Whats-App-Image-2025-05-20-at-9-47-59-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/FRT7Bytp/Whats-App-Image-2025-05-20-at-9-48-01-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/tJf7X94V/Whats-App-Image-2025-05-20-at-9-48-02-AM.jpg"></div>
-    <div class="gallery-item"><img src="https://i.postimg.cc/1RY80rr5/Whats-App-Image-2025-05-20-at-9-48-04-AM.jpg"></div>
-</div>
-
-    <footer style="padding: 40px; color: #666;">
-        &copy; 2026 Equalizers Basketball Club
+    <footer style="background-color: #0033a0; color: white; text-align: center; padding: 20px; margin-top: 40px;">
+        &copy; 2026 Equalizers Basketball Club. All Rights Reserved.
     </footer>
+
 </body>
 </html>
