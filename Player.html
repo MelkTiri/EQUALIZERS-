@@ -30,9 +30,37 @@
         }
 
         /* Navigation Menu */
-        nav {
-            background-color: #002b80;
-            padding: 0 20px;
+        /* Navigation Container */
+nav { 
+    background-color: #002b80; 
+    display: flex; 
+    padding: 0 40px; 
+    border-top: 4px solid #ffcc00; /* The yellow line at the top */
+}
+
+/* Tab Buttons */
+nav button { 
+    background: none; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: none;
+    transition: 0.3s;
+    border-bottom: 4px solid transparent; /* Reserve space for the yellow tab */
+}
+
+nav button:hover { 
+    color: #ffcc00; 
+}
+
+/* The Active Tab Style */
+.active-btn { 
+    color: #ffcc00 !important; 
+    border-bottom: 4px solid #ffcc00 !important; 
+}
         }
         .menu {
             position: relative;
